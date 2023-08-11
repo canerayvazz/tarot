@@ -9,3 +9,17 @@ img{
 html{
     background: rgb(107, 142, 35);
 }
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.image-container {
+  display: flex; /* Use flexbox to arrange images side by side */
+}
+
+.image-container img {
+  max-width: 100%; /* Ensure images don't exceed their container */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add some spacing between images */
+}
