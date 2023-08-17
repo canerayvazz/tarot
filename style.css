@@ -11,15 +11,15 @@ body {
   padding: 0;
 }
 
-.image-container {
-  display: flex;
-  flex-wrap: wrap;
+img{
+  width: 170px;
+  height: 300px;
+  padding: 5px;
 }
-
-.image-container img {
-  max-width: 100%;
-  height: auto;
-  margin-right: 10px;
-  flex: 1;
+@media (max-width:600px){
+  img{
+    width: 85px;
+    height: 150px;
+  }
 }
 
